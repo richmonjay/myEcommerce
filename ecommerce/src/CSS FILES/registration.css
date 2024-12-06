@@ -1,0 +1,163 @@
+.registration-container {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: rgba(28,28,28,255); */
+    background-color: black;
+}
+
+.registration-form {
+    height: 80%;
+    width: 80%;
+    background-color: rgba(33,33,33,255);
+    /* background-color: gray; */
+    border-radius: 40px;
+    display: flex;
+    flex-direction: row;
+    padding: 0 20px;
+}
+
+.left-registration-form{
+    height: 100%;
+    width: 50%;
+    border-radius: 40px;
+    display: flex;
+    flex-direction: column;
+}
+
+.right-registration-form {
+    height: 90%;
+    width: 50%;
+    border-radius: 10px;
+    /* border: 1px solid white; */
+    /* background-color: rgb(88, 85, 85); */
+    background-color: rgba(49,49,49,255);
+    /* background-color: rgba(28,28,28,255); */
+}
+
+.upper-left {
+    height: 20%;
+    padding: 10px;
+}
+
+.welcome {
+    color: white;
+    font-size: 2rem;
+    font-weight: 600;
+    letter-spacing: .3rem;
+    margin-top: 30px;
+    margin-left: 30px;
+}
+
+.welcome-desc {
+    color: white;
+    margin-top: 10px;
+    margin-left: 30px;
+    font-size: 0.8rem;
+}
+
+.middle-left{
+    height: 60%;
+    margin-left: 40px;
+}
+
+.middle-desc {
+    color: white;
+    letter-spacing: 0.2rem;
+    font-size: 0.7rem;
+    margin-bottom: 15px;
+}
+
+.text-color {
+    color: white;
+    font-size: 0.7rem;
+}
+
+.input-desc-margin {
+    margin-bottom: 3px;
+}
+
+.middle-input {
+    width: 80%;
+    height: 10%;
+    border-radius: 10px;
+    outline: none;
+    border: none;
+    padding: 5px 10px;
+    background-color: rgba(46,46,46,255);
+    border: 1px solid rgba(70,70,70,255);
+    color: white;
+    margin-bottom: 15px;
+}
+
+.upper-right {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 15%;
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    display: flex;
+    /* border: 1px solid red; */
+    align-items: center;
+}
+
+.logDetails {
+    letter-spacing: .2rem;
+    font-size: 1.2rem;
+}
+
+.middle-right {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 60%;
+    /* border: 1px solid red; */
+    margin: 0 20px;
+}
+
+.lower-right {
+    height: 20%;
+    margin: 0 20px;
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    flex-direction: column;
+    /* border: 1px solid red; */
+}
+
+.middle-button {
+    width: 80%;
+    height: 40%;
+    border-radius: 10px;
+    outline: none;
+    border: none;
+    margin-bottom: 15px;
+}
+
+
+.registration-button{
+    background-color: black; 
+    color: white;
+    width: 80%;
+    height:40%;
+    outline: none;
+    border: none;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.backToLogin {
+    color: white;
+    background-color: transparent;
+    border: none;
+    margin-left: 5px;
+    font-size: .7rem;
+}
+
+.backToLogin:hover {
+    color: rgba(195,144,82,255);
+}

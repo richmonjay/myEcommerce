@@ -1,0 +1,66 @@
+.body-container {
+    height: 500px;
+    width: 100%;
+    background-color: bisque;
+    background: url(../image/watches.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.motto {
+    height: 60%;
+    width: 55%;
+    text-align: center;
+    padding-top: 50px;
+}
+
+.p-motto {
+    font-size: 3rem;
+    color: black;
+}
+
+.rating {
+    height: 40%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.p-rating {
+    font-size: 12px;
+}
+
+.fa-star {
+    color: rgba(195,144,82,255);
+    font-size: 12px;
+    margin-top: 2px;
+}
+
+.star-container {
+    height: 20%;
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+}
+
+.sponsor-container {
+    height: 20%;
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+}
+
+.p-sponsor {
+    font-size: 12px;
+    margin-top: 2.5px;
+}
+
+.p-sponsored {
+    font-size: 16px;
+    font-weight:bold;
+}

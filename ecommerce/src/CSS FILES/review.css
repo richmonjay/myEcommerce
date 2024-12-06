@@ -1,0 +1,61 @@
+
+.review-container {
+    padding:30px;
+}
+
+.review-box {
+    height: 20%;
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.leading {
+    font-size: 1.7rem;
+    font-weight: 600;
+}
+
+.reviews {
+    height: 80%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.reviews-box {
+    height: 260px;
+    width: 290px;
+    border: 2px solid rgba(244,244,244,255);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.review-pic {
+    height: 70%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.buyer-rating {
+    height: 80%;
+}
+
+.buyers{
+    height: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 22px;
+    font-weight: 600;
+}
+
+.buyer-count {
+    height: 20%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-size: 14px;
+}

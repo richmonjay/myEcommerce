@@ -1,0 +1,23 @@
+.homepageBody-container {
+    height: 500px;
+    display: flex;
+    padding: 30px;
+}
+
+.patekBest {
+   height: 95%;
+}
+
+
+.leftHomepageBody, .rightHomepageBody {
+    width: 25%;
+    background-color: red;
+    height: 100%;
+}
+
+.middleHomepageBody {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center ;
+}

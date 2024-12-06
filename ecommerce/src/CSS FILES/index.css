@@ -1,0 +1,106 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+    /* font-family: "Nunito", sans-serif; */
+    font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+}
+
+button{
+    cursor: pointer;
+}
+
+body {
+    padding-top: 10px;
+}
+
+body::-webkit-scrollbar{
+    width: 0;
+}
+
+
+.header-container {
+    height: 100px;
+    display: flex;  
+}
+
+.company-name, .register {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 25%;
+    height: 80%;
+}
+
+.search-item {
+    width: 50%;
+    height: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.search-container {
+    width: 90%;
+    height: 60%;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 0 20px;
+    border-radius: 10px;
+    background-color: rgba(243,243,243,255);
+}
+
+#search {
+    border: none;
+    background-color: transparent;
+    width: 100%;
+    outline: none;
+}
+
+.company-logo {
+    height: 80px;
+}
+
+.magnifying {
+    height: 20px;
+}
+
+.profile {
+   font-size: 20px;
+}
+
+.log-button {
+    height: 50%;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size:12px;
+    border: none;
+    background-color: transparent;
+    
+}
+
+.log-button:hover{
+    color: rgba(195,144,82,255);
+}
+
+.Link {
+    text-decoration: none;
+}
+
+/* 
+for home
+*/
+
+.scroll-to-top {
+    position: sticky;
+    bottom: 7px;
+    left: 1250px;
+    padding: 10px;
+  }
+  
+  .scroll-to-top:hover {
+    background-color: #555;
+    cursor: pointer;
+  }

@@ -1,0 +1,62 @@
+.css-watch-container{
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 10px;
+}
+
+.watch-container{
+    height: 100%;
+    width: 23%;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: rgba(239,236,234,255);
+}
+
+.watch-sample{
+    height: 90%;
+    width: 95%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.upper-watch{
+    height: 70%;
+    display: flex;
+    justify-content: center;
+}
+
+.watch-des {
+    height: 30%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding: 10px;
+    gap: 10px;
+    font-size: .9rem;
+}
+
+.watchHover {
+    transition: transform 1.5s ease-in-out;
+}
+
+.watchHover:hover {
+    transform: scale(1.1);
+}
+
+.watch-brand {
+    height: 10%;
+    margin-left: 30px;
+    font-size: 1.3rem;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+}
+
+.lower-watch-des {
+    font-weight: 600;
+}

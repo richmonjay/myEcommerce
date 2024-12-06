@@ -1,0 +1,85 @@
+.homepageNavContainer {
+    height: 50px;
+    /* background-color: rgba(210,201,194,255); */
+    /* background-color: #F2FFEB; */
+    display: flex;
+    padding: 10px 30px;
+}
+
+.homeNavButton {
+    background-color: transparent;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    /* color: white; */
+    font-size: .7rem
+}
+
+.homeNavButton:hover {
+    color: rgba(195,144,82,255);
+}
+
+.left-homeNav {
+    width: 20%;
+    /* border: 1px solid red; */
+    display: flex;
+    align-items: center;
+}
+
+.right-homeNav {
+    width: 20%;
+    /* border: 1px solid red; */
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap:30px;
+}
+
+.middle-homeNav {       
+    /* border: 1px solid red; */
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+
+}
+
+.fa-clock {
+    /* color: white; */
+    font-size: .7rem;
+    color: black;
+}
+
+.left-homeNav Link{
+    text-decoration: none;
+    color: black;
+}
+
+
+.userButton {
+    height: 25px;
+    width: 25px;
+    border-radius: 50%;
+    background-color: transparent;
+    font-size: .7rem;
+}
+
+.userCartButton {
+    background-color: transparent;
+    border: none;
+}
+
+.userLikeItem{
+    background-color: transparent;
+    border: none;
+}
+
+.userLikeItem.liked {
+    color: red;
+}
+
+.userClickedItem.page {
+    text-decoration: underline;
+}
+

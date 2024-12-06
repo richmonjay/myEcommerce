@@ -1,0 +1,59 @@
+.protection-container {
+    height: 400px;
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+.protection {
+    height: 400px;
+    width: 100%;
+    border-radius: 20px;
+    display: flex;
+}
+
+.left {
+    width: 50%;
+    padding: 30px;
+    background-color: rgba(26,37,60,255);
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+
+
+.right {
+    width: 50%;
+    background: url(../image/watch.jpg);
+    padding: 30px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.p-buyer {
+    font-size: 1.7rem;
+    font-weight: 600;
+    color: white;
+    margin-bottom: 20px;
+}
+
+.p-protection {
+    font-size: 16px;
+    margin-bottom: 20px;
+    color: white;
+}
+
+.button-security {
+    font-size: 14px;
+    padding: 10px 50px;
+    background-color: transparent;
+    border: 1px solid white;
+    color: white;
+    border-radius: 10px;
+}
+
+.button-security:hover {
+    border: 1px solid rgba(195,144,82,255);
+}

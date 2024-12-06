@@ -1,0 +1,155 @@
+.register-container {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    align-items: center;
+}
+
+.register-logo {
+    height: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.reg-logo {
+    height: 60%;
+}
+
+.register-form {
+    height: 70%;
+    border: 1px solid black;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.middle-register, .lower-register {
+    height: 33.33%;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+}
+
+.log {
+    margin-bottom: 20px;
+    font-size: 1.5rem;
+    letter-spacing: 5px;
+}
+
+
+.log-des {
+    font-size: .8rem;
+    letter-spacing: 2px;
+}
+
+.text-color {
+    color: rgba(89,71,69,255);
+}
+
+.middle-register {
+    gap: 10px;
+}
+
+#userEmail, #userPassword {
+    width: 90%;
+    height: 25%;
+    padding: 5px 10px;
+    font-size: .8rem;
+    outline: none;
+}
+
+.accountLogButton {
+    width: 95%;
+    height: 25%;
+    color: white;
+    background-color: black;
+    letter-spacing: .2rem;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    margin-bottom: 20px;
+}
+
+.upper-register {
+    height: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.lower-register {
+    align-items: center;
+    margin-top: 10px;
+    flex-direction: column;
+}
+
+.middle-register {
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.accountSign{
+    border: none;
+    background-color: transparent;
+    
+}
+
+.signFont {
+    font-size: .9rem;
+    color: rgba(114,117,116,255);
+    letter-spacing: .12rem;
+}   
+
+
+/* registration form */
+
+.registration-form {
+    height: 70%;
+    border: 1px solid black;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.lower-registration {
+    height: 10%;
+    width: 80%;
+    display: flex;
+    justify-content: center;
+}
+
+.upper-registration {
+    height: 75%;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+.middle-registration {
+    height: 15%;
+    width: 80%;
+    display: flex;
+    justify-content: center;
+}
+
+#user-fname, #user-lname, #user-email, #user-pass{
+    width: 90%;
+    height: 10%;
+    padding: 5px 10px;
+    font-size: .8rem;
+    outline: none;
+}

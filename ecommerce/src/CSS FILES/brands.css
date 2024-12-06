@@ -1,0 +1,40 @@
+.brand-container {
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    padding: 0 30px;
+    gap: 15px;
+    padding-bottom: 20px;
+}
+.popular {
+    height: 40%;
+    display: flex;
+    align-items: flex-end;
+
+}
+
+.popular-title {
+    font-size: 1.8rem;
+    font-weight: 600;
+}
+
+.brandName-container {
+    height: 60%;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.watch-name{
+    width: 235px;
+    height: 50px;
+    border-radius: 10px;
+    border: none;
+    background-color: rgba(239,236,234,255);
+}
+
+.watch-name:hover {
+    color: rgba(195,144,82,255);
+}
